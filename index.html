@@ -7,18 +7,180 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <img src="images/photoprofil.png" alt="Photo d'Angelique" class="photo">
-        <h1>Angelique Lucas</h1>
-        <p>Assistante administrative polyvalente</p>
-        <nav>
-            <a href="#profil">Profil</a>
-            <a href="#competences">Compétences</a>
-            <a href="#experience">Expériences</a>
-            <a href="#formation">Formation</a>            
-            <a href="#contact">Contact</a>
-        </nav>
-    </header>
+
+<!-- ===========================
+      MODALES (fenêtres pop-up)
+=========================== -->
+        <div id="modal-profil" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Profil</h2>
+            <p>Assistante administrative rigoureuse et organisée, dotée d’un excellent sens relationnel et à l’aise avec les outils bureautiques et numériques, prête à optimiser la gestion administrative d’une structure humaine et dynamique.</p>
+        </div>
+        </div>
+
+                <div id="modal-competences" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h2>Compétences</h2>
+
+                    <div class="competences-block">
+                    <h3>Techniques</h3>
+                    <ul>
+                        <li>Gestion administrative et suivi de dossiers</li>
+                        <li>Préparation, mise en forme et contrôle de documents</li>
+                        <li>Respect des procédures et exigences réglementaires</li>
+                        <li>Suivi des échéances, plannings et demandes</li>
+                        <li>Rédaction et suivi de comptes rendus</li>
+                        <li>Classement, archivage et gestion documentaire</li>
+                        <li>Paramétrage et utilisation des outils bureautiques (Word, Excel)</li>
+                        <li>Mise à jour de bases de données et dossiers administratifs</li>
+                    </ul>
+                    </div>
+
+                            <div class="competences-block">
+                            <h3>Transversales</h3>
+                            <ul>
+                                <li>Rigueur et sens de l’organisation</li>
+                                <li>Autonomie et fiabilité dans le traitement des informations</li>
+                                <li>Capacité d’analyse et de structuration des données</li>
+                                <li>Sens des responsabilités et respect de la confidentialité</li>
+                                <li>Aisance relationnelle avec les partenaires et institutions</li>
+                                <li>Adaptabilité et capacité d’apprentissage rapide</li>
+                                <li>Sensibilité aux outils numériques (bases HTML/CSS)</li>
+                            </ul>
+                            </div>
+                        </div>
+                        </div>
+
+                                <div id="modal-experience" class="modal">
+                                <div class="modal-content">
+
+                                    <span class="close">&times;</span>
+
+                                    <h2>Engagement associatif</h2>
+
+                                    <h3>Présidente / Secrétaire</h3>
+                                    <p>Assoc. Quartier Maupassant & Caudry d’Hier et d’Aujourd’hui</p>
+                                    <ul>
+                                    <li>Rédaction de courriers, comptes rendus et documents officiels</li>
+                                    <li>Organisation et suivi des réunions, diffusion des informations aux membres</li>
+                                    <li>Coordination avec partenaires et institutions</li>
+                                    <li>Gestion des dossiers internes et suivi des échéances associatives</li>
+                                    <li>Mise en place de processus pour améliorer l’organisation de l’association</li>
+                                    </ul>
+
+                                    <h3>Bénévole</h3>
+                                    <p>Les Amis de Dana</p>
+                                    <ul>
+                                    <li>Soutien à l’organisation des activités et événements</li>
+                                    <li>Gestion de la documentation interne et suivi des dossiers</li>
+                                    <li>Collaboration avec les équipes pour fluidifier la communication interne</li>
+                                    </ul>
+                                </div>
+                                </div>
+
+                                        <div id="modal-formation" class="modal">
+                                        <div class="modal-content">
+                                            <span class="close">&times;</span>
+                                            <h2>Formation</h2>
+                                                    <p>
+                                                        Baccalauréat Secrétariat <br>
+                                                Lycée Robert Desnos (1994 - 1998)<br>
+
+                                                Traitement de texte, bureautique, comptabilité.<br><br>
+
+                                                BEP Secrétariat<br>
+                                                Lycée Robert Desnos<br>
+                                                Traitement de texte, bureautique, comptabilité<br><br>
+
+                                                Découverte HTML/CSS, front-end, back-end
+                                                AFPA (Reconversion numérique)
+                                                    </p>
+                                                </div>
+                                                </div>
+
+                                                    <div id="modal-contact" class="modal">
+                                                    <div class="modal-content">
+                                                        <span class="close">&times;</span>
+                                                        <h2>Contact</h2>
+                                                        <p>
+                                                        📧 lucasangelique59@gmail.com<br>
+                                                        📞 06 65 60 56 82
+                                                        </p>
+                                                    </div>
+                                                    </div>
+
+                                                        <div id="modal-experience-pro" class="modal">
+                                                        <div class="modal-content">
+                                                            <span class="close">&times;</span>
+
+                                                            <h2>Expériences professionnelles</h2>
+
+                                                            <div class="experience-item">
+                                                            <h3>Chauffeur – Transport de personnes à mobilité réduite</h3>
+                                                            <p class="structure">FAZ Transport</p>
+                                                            <ul>
+                                                                <li>Transport et accompagnement de personnes à mobilité réduite</li>
+                                                                <li>Gestion des plannings et respect des horaires et itinéraires</li>
+                                                                <li>Communication avec les usagers, familles et structures partenaires</li>
+                                                                <li>Application stricte des procédures de sécurité et de confidentialité</li>
+                                                            </ul>
+                                                            </div>
+
+                                                                    <div class="experience-item">
+                                                                    <h3>Auxiliaire d’éducation – Personne en situation de handicap</h3>
+                                                                    <p class="structure">Collège P. Langevin</p>
+                                                                    <ul>
+                                                                        <li>Accompagnement individuel d’un élève en situation de handicap</li>
+                                                                        <li>Soutien administratif quotidien auprès de l’équipe éducative</li>
+                                                                        <li>Aide à la gestion et au suivi de documents pédagogiques</li>
+                                                                        <li>Coordination avec enseignants et personnels encadrants</li>
+                                                                    </ul>
+                                                                    </div>
+
+                                                                    <div class="experience-item">
+                                                                    <h3>Auxiliaire de vie à domicile</h3>
+                                                                    <p class="structure">ADAPT</p>
+                                                                    <ul>
+                                                                        <li>Accompagnement d’adultes en situation de handicap</li>
+                                                                        <li>Organisation et suivi des tâches et besoins quotidiens</li>
+                                                                        <li>Transmission d’informations et suivi des consignes</li>
+                                                                    </ul>
+                                                                    </div>
+
+                                                                    <div class="experience-item">
+                                                                    <h3>Auxiliaire de vie scolaire</h3>
+                                                                    <p class="structure">Lycée Camille Claudel</p>
+                                                                    <ul>
+                                                                        <li>Accompagnement scolaire individualisé</li>
+                                                                        <li>Soutien à la gestion de documents pédagogiques</li>
+                                                                        <li>Participation à l’organisation du cadre scolaire de l’élève</li>
+                                                                    </ul>
+                                                                    </div>
+
+                                                                </div>
+                                                                </div>
+
+<!-- ===========================
+      HEADER
+=========================== -->
+<header>
+    <img src="images/photoprofil.png" alt="Photo d'Angelique" class="photo">
+    <h1>Angelique Lucas</h1>
+    <p>Assistante administrative polyvalente</p>
+
+    <nav>
+        <!-- LES BOUTONS QUI OUVRENT LES MODALES -->
+        <a href="#" class="open-modal" data-modal="modal-profil">Profil</a>
+        <a href="#" class="open-modal" data-modal="modal-competences">Compétences</a>
+        <a href="#" class="open-modal" data-modal="modal-experience-pro">Expériences pro</a>        
+        <a href="#" class="open-modal" data-modal="modal-experience">Engagement associatif</a>
+        <a href="#" class="open-modal" data-modal="modal-formation">Formation</a>
+        <a href="#" class="open-modal" data-modal="modal-contact">Contact</a>
+        
+    </nav>
+</header>
 
     <main>
         <!-- Profil -->
@@ -149,5 +311,7 @@
     <footer>
   
     </footer>
+     <script src="script.js"></script>
 </body>
+
 </html>
